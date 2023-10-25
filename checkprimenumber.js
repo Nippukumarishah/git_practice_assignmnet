@@ -4,7 +4,7 @@ function check_prime(number)
   {
     return false;
   }
-  else if(number !== 2)
+  else if(number == 2)
   {
     return true;
   }
