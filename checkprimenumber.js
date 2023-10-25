@@ -4,10 +4,7 @@ function check_prime(number)
   {
     return false;
   }
-  else if(number !== 2)
-  {
-    return true;
-  }
+  
   else
   {
     for(let i = 2; i< number; i++)
